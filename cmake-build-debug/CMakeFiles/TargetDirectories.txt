@@ -1,0 +1,3 @@
+/home/samandar/CLionProjects/CPracticum/cmake-build-debug/CMakeFiles/CPracticum.dir
+/home/samandar/CLionProjects/CPracticum/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/samandar/CLionProjects/CPracticum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
