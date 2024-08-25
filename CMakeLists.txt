@@ -3,4 +3,6 @@ project(CPracticum C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(CPracticum main.c)
+add_executable(CPracticum main.c
+        src/bitwise_operators.c
+        include/bitwise_operators.h)

@@ -1,16 +1,16 @@
 #include <stdio.h>
-#include <limits.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 
-int main(void) {
-    unsigned width, precision;
-    int number = 256;
-    double weight = 242.5;
-    printf("What field width?\n");
-    scanf("%d", &width);
-    printf("The number is :%*d:\n", width, number);
-    printf("Now enter a width and a precision:\n");
-    scanf("%d %d", &width, &precision);
-    printf("Weight = %*.*f\n", width, precision, weight);
-    printf("Done!\n");
+//#################
+#include "include/bitwise_operators.h"
+
+int main() {
+    int n = 3, k = 2;
+
+//    scanf("%d %d", &n, &k);
+    calculate_the_maximum(n, k);
+
     return 0;
 }
