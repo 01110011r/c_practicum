@@ -1,10 +1,11 @@
 # ninja log v5
-26	40	1724599369575185480	CPracticum	f8053503a3fb0f1c
-1	21	1724601636358807010	CMakeFiles/CPracticum.dir/main.c.o	f51bb8fcd3189618
-1	25	1724601481019175135	CMakeFiles/CPracticum.dir/src/bitwise_operators.c.o	bf874cf0c165e39f
-1	23	1724601754368469756	build.ninja	422e89297d193d0d
+1	20	1724648185238594492	CMakeFiles/CPracticum.dir/src/printing_pattern-2.c.o	d6e01c2f7a970d31
+20	35	1724648185248594449	CPracticum	d0de9f624ee320f9
+0	20	1724639634765346300	CMakeFiles/CPracticum.dir/main.c.o	f51bb8fcd3189618
+0	31	1724639127426552745	CMakeFiles/CPracticum.dir/src/bitwise_operators.c.o	bf874cf0c165e39f
+1	23	1724638662338156240	build.ninja	422e89297d193d0d
 0	25	1724599628123072578	CMakeFiles/CPracticum.dir/bitwise_operators.c.o	20d573ec88b2fe1c
-0	21	1724601820451594794	CMakeFiles/CPracticum.dir/main.c.o	f51bb8fcd3189618
-1	29	1724602665420312387	CMakeFiles/CPracticum.dir/src/bitwise_operators.c.o	bf874cf0c165e39f
-0	29	1724602994360382125	CMakeFiles/CPracticum.dir/src/bitwise_operators.c.o	bf874cf0c165e39f
-29	43	1724602994373715460	CPracticum	af93613151a1537c
+1	15	1724648244285006344	CMakeFiles/CPracticum.dir/src/printing_pattern-2.c.o	d6e01c2f7a970d31
+15	32	1724648244301672939	CPracticum	d0de9f624ee320f9
+0	14	1724648289488145037	CMakeFiles/CPracticum.dir/src/printing_pattern-2.c.o	d6e01c2f7a970d31
+14	27	1724648289501478313	CPracticum	d0de9f624ee320f9
