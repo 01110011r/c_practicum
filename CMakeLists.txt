@@ -7,4 +7,12 @@ add_executable(CPracticum main.c
         src/bitwise_operators.c
         include/bitwise_operators.h
         include/printing_pattern-2.h
-        src/printing_pattern-2.c)
+        src/printing_pattern-2.c
+        include/triangles_sorting.h
+        src/triangles_sorting.c)
+
+
+
+
+# Link the math library
+target_link_libraries(CPracticum m)
