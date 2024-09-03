@@ -9,7 +9,9 @@ add_executable(CPracticum main.c
         include/printing_pattern-2.h
         src/printing_pattern-2.c
         include/triangles_sorting.h
-        src/triangles_sorting.c)
+        src/triangles_sorting.c
+        include/post-transition.h
+        src/post-transition.c)
 
 
 
