@@ -20,15 +20,24 @@ void print_all_packages(town t) {
 }
 
 void send_all_acceptable_packages(town* source, int source_office_index, town* target, int target_office_index) {
-    int acceptable_packages_count = 0;
+    package* new_packages=malloc(sizeof(package) * source->offices[source_office_index].packages_count);
+    int new_index = 0;
     for(int i = 0; i<source->offices[source_office_index].packages_count; i++){
         int weight = source->offices[source_office_index].packages[i].weight;
         if(weight<=target->offices[target_office_index].max_weight&&weight>=target->offices[target_office_index].min_weight) {
+            target->offices[target_office_index].packages_count++;
+            target->offices[target_office_index].packages=realloc(target->offices[target_office_index].packages,
+                                                                  sizeof(package) * target->offices[target_office_index].packages_count);
+            target->offices[target_office_index].packages[target->offices[target_office_index].packages_count-1]=source->offices[source_office_index].packages[i];
         } else {
-//            source->offices[source_office_index].
+            new_packages[new_index]=source->offices[source_office_index].packages[i];
+            new_index++;
 
         }
     }
+    free(source->offices[source_office_index].packages);
+    source->offices[source_office_index].packages=new_packages;
+    source->offices[source_office_index].packages_count=new_index;
 }
 
 town town_with_most_packages(town* towns, int towns_count) {
