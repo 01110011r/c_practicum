@@ -13,7 +13,9 @@ add_executable(CPracticum main.c
         include/post-transition.h
         src/post-transition.c
         src/reverse-array.c
-        include/reverse-array.h)
+        include/reverse-array.h
+        src/printing-tokens.c
+        include/printing-tokens.h)
 
 
 

@@ -9,12 +9,17 @@
 #include "include/triangles_sorting.h"
 #include "include/post-transition.h"
 #include "include/reverse-array.h"
+#include "include/printing-tokens.h"
 
 int main() {
 
 
+    //printing tokens  6-->>>>>>>>>>>>>>>>>>
+    printingTokens();
+    //printing tokens  6--##################
+
     //reverse-array  5-->>>>>>>>>>>>>>>>>>
-    reverseArray();
+//    reverseArray();
     //reverse-array  5--##################
 
 
