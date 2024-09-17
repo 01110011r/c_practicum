@@ -11,7 +11,9 @@ add_executable(CPracticum main.c
         include/triangles_sorting.h
         src/triangles_sorting.c
         include/post-transition.h
-        src/post-transition.c)
+        src/post-transition.c
+        src/reverse-array.c
+        include/reverse-array.h)
 
 
 

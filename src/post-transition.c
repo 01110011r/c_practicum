@@ -59,7 +59,7 @@ town town_with_most_packages(town* towns, int towns_count) {
 
 town* find_town(town* towns, int towns_count, char* name) {
     //I started working here
-    town* result = null;
+    town* result = towns;
     for(int i=0; i<towns_count; i++)
         if(strcmp(towns[i].name, name) == 0) {
             result = &towns[i];
