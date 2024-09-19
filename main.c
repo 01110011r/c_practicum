@@ -14,8 +14,12 @@
 int main() {
 
 
+    //dynamic array in C 7-->>>>>>>>>>>>>>>>>>
+//    https://www.hackerrank.com/challenges/dynamic-array-in-c/problem?isFullScreen=true
+    //dynamic array in C 7--##################
+
     //printing tokens  6-->>>>>>>>>>>>>>>>>>
-    printingTokens();
+//    printingTokens();
     //printing tokens  6--##################
 
     //reverse-array  5-->>>>>>>>>>>>>>>>>>
@@ -73,22 +77,17 @@ int main() {
     //post-transition  4--##################
 
     //triangle sorting  3-->>>>>>>>>>>>>>>>>>>>
-    int n;
-    scanf("%d", &n);
-//    struct triangle {
-//        int a;
-//        int b;
-//        int c;
-//    };
-
-    triangle *tr = malloc(n * sizeof(triangle));
-    for (int i = 0; i < n; i++) {
-        scanf("%d%d%d", &tr[i].a, &tr[i].b, &tr[i].c);
-    }
-    sort_by_area(tr, n);
-    for (int i = 0; i < n; i++) {
-        printf("%d %d %d\n", tr[i].a, tr[i].b, tr[i].c);
-    }
+//    int n;
+//    scanf("%d", &n);
+//
+//    triangle *tr = malloc(n * sizeof(triangle));
+//    for (int i = 0; i < n; i++) {
+//        scanf("%d%d%d", &tr[i].a, &tr[i].b, &tr[i].c);
+//    }
+//    sort_by_area(tr, n);
+//    for (int i = 0; i < n; i++) {
+//        printf("%d %d %d\n", tr[i].a, tr[i].b, tr[i].c);
+//    }
     //triangle sorting 3--####################
 
     //printing pattern-2   2-->>>>>>>>>>>>>>>>>>
