@@ -10,9 +10,18 @@
 #include "include/post-transition.h"
 #include "include/reverse-array.h"
 #include "include/printing-tokens.h"
+#include "include/recursion1.h"
 
 int main() {
 
+    //recursion1    8-->>>>>>>>>>>>>>>>>>
+    int n, a, b, c;
+
+    scanf("%d %d %d %d", &n, &a, &b, &c);
+    int ans = find_nth_term(n, a, b, c);
+
+    printf("%d", ans);
+    //recursion1    8--##################
 
     //dynamic array in C 7-->>>>>>>>>>>>>>>>>>
 //    https://www.hackerrank.com/challenges/dynamic-array-in-c/problem?isFullScreen=true

@@ -91,6 +91,12 @@ build CMakeFiles/CPracticum.dir/src/printing-tokens.c.o: C_COMPILER__CPracticum_
   OBJECT_DIR = CMakeFiles/CPracticum.dir
   OBJECT_FILE_DIR = CMakeFiles/CPracticum.dir/src
 
+build CMakeFiles/CPracticum.dir/src/recursion1.c.o: C_COMPILER__CPracticum_unscanned_Debug /home/samandar/CLionProjects/CPracticum/src/recursion1.c || cmake_object_order_depends_target_CPracticum
+  DEP_FILE = CMakeFiles/CPracticum.dir/src/recursion1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/CPracticum.dir
+  OBJECT_FILE_DIR = CMakeFiles/CPracticum.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CPracticum
@@ -99,7 +105,7 @@ build CMakeFiles/CPracticum.dir/src/printing-tokens.c.o: C_COMPILER__CPracticum_
 #############################################
 # Link the executable CPracticum
 
-build CPracticum: C_EXECUTABLE_LINKER__CPracticum_Debug CMakeFiles/CPracticum.dir/main.c.o CMakeFiles/CPracticum.dir/src/bitwise_operators.c.o CMakeFiles/CPracticum.dir/src/printing_pattern-2.c.o CMakeFiles/CPracticum.dir/src/triangles_sorting.c.o CMakeFiles/CPracticum.dir/src/post-transition.c.o CMakeFiles/CPracticum.dir/src/reverse-array.c.o CMakeFiles/CPracticum.dir/src/printing-tokens.c.o
+build CPracticum: C_EXECUTABLE_LINKER__CPracticum_Debug CMakeFiles/CPracticum.dir/main.c.o CMakeFiles/CPracticum.dir/src/bitwise_operators.c.o CMakeFiles/CPracticum.dir/src/printing_pattern-2.c.o CMakeFiles/CPracticum.dir/src/triangles_sorting.c.o CMakeFiles/CPracticum.dir/src/post-transition.c.o CMakeFiles/CPracticum.dir/src/reverse-array.c.o CMakeFiles/CPracticum.dir/src/printing-tokens.c.o CMakeFiles/CPracticum.dir/src/recursion1.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/CPracticum.dir

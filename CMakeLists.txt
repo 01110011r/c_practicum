@@ -15,7 +15,9 @@ add_executable(CPracticum main.c
         src/reverse-array.c
         include/reverse-array.h
         src/printing-tokens.c
-        include/printing-tokens.h)
+        include/printing-tokens.h
+        src/recursion1.c
+        include/recursion1.h)
 
 
 
