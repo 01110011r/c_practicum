@@ -12,15 +12,50 @@
 #include "include/printing-tokens.h"
 #include "include/recursion1.h"
 
+struct ListNode {
+    int val;
+    struct ListNode* next;
+};
+
+long long toNum(struct ListNode* l) {
+    if (l->next == NULL)
+        return l->val;
+    return toNum(l->next) * 10 + l->val;
+}
+//void toNum(struct ListNode* l, char* result) {
+//    if (l == NULL) return;
+//    toNum(l->next, result);
+//    char buffer[2];
+//    sprintf(buffer, "%d", l->val);
+//    strcat(result, buffer);
+//}
 int main() {
 
+
+    struct ListNode l1 = {9, NULL};
+    struct ListNode l2_10 = {9, NULL};
+    struct ListNode l2_9 = {9, &l2_10};
+    struct ListNode l2_8 = {9, &l2_9};
+    struct ListNode l2_7 = {9, &l2_8};
+    struct ListNode l2_6 = {9, &l2_7};
+    struct ListNode l2_5 = {9, &l2_6};
+    struct ListNode l2_4 = {9, &l2_5};
+    struct ListNode l2_3 = {9, &l2_4};
+    struct ListNode l2_2 = {9, &l2_3};
+    struct ListNode l2_1 = {1, &l2_2};
+
+    long long result = toNum(&l2_1);
+    printf("Natija: %lld\n", result);
+
+    return 0;
+
     //recursion1    8-->>>>>>>>>>>>>>>>>>
-    int n, a, b, c;
+//    int n, a, b, c;
 
-    scanf("%d %d %d %d", &n, &a, &b, &c);
-    int ans = find_nth_term(n, a, b, c);
+//    scanf("%d %d %d %d", &n, &a, &b, &c);
+//    int ans = find_nth_term(n, a, b, c);
 
-    printf("%d", ans);
+//    printf("%d", ans);
     //recursion1    8--##################
 
     //dynamic array in C 7-->>>>>>>>>>>>>>>>>>
