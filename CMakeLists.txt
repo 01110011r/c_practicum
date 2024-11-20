@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.25.1)
 project(CPracticum C)
 
 set(CMAKE_C_STANDARD 11)
@@ -17,7 +17,9 @@ add_executable(CPracticum main.c
         src/printing-tokens.c
         include/printing-tokens.h
         src/recursion1.c
-        include/recursion1.h)
+        include/recursion1.h
+        src/num-to-arr.c
+        include/num-to-arr.h)
 
 
 
