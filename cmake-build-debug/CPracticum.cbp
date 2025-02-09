@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPracticum"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPracticum">
+				<Option output="/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/CPracticum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPracticum"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPracticum/fast">
+				<Option output="/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/CPracticum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPracticum/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/samandar/Desktop/Box/cland/c_practicum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/algo-src/words_to_array.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/algo-src/words_to_array.h">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/include/bitwise_operators.h">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/include/num-to-arr.h">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/include/post-transition.h">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/include/printing-tokens.h">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/include/printing_pattern-2.h">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/include/recursion1.h">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/include/reverse-array.h">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/include/triangles_sorting.h">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/main.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/src/bitwise_operators.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/src/num-to-arr.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/src/post-transition.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/src/printing-tokens.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/src/printing_pattern-2.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/src/recursion1.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/src/reverse-array.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/src/triangles_sorting.c">
+			<Option target="CPracticum"/>
+		</Unit>
+		<Unit filename="/home/samandar/Desktop/Box/cland/c_practicum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

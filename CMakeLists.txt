@@ -19,7 +19,9 @@ add_executable(CPracticum main.c
         src/recursion1.c
         include/recursion1.h
         src/num-to-arr.c
-        include/num-to-arr.h)
+        include/num-to-arr.h
+        algo-src/words_to_array.c
+        include/words_to_array.h)
 
 
 

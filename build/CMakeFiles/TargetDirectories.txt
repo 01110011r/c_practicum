@@ -1,0 +1,3 @@
+/home/samandar/Desktop/Box/cland/c_practicum/build/CMakeFiles/CPracticum.dir
+/home/samandar/Desktop/Box/cland/c_practicum/build/CMakeFiles/edit_cache.dir
+/home/samandar/Desktop/Box/cland/c_practicum/build/CMakeFiles/rebuild_cache.dir

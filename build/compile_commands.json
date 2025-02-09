@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/samandar/Desktop/Box/cland/c_practicum/build",
+  "command": "/usr/bin/clang-15   -g -std=gnu11 -o CMakeFiles/CPracticum.dir/main.c.o -c /home/samandar/Desktop/Box/cland/c_practicum/main.c",
+  "file": "/home/samandar/Desktop/Box/cland/c_practicum/main.c"
+},
+{
+  "directory": "/home/samandar/Desktop/Box/cland/c_practicum/build",
+  "command": "/usr/bin/clang-15   -g -std=gnu11 -o CMakeFiles/CPracticum.dir/src/bitwise_operators.c.o -c /home/samandar/Desktop/Box/cland/c_practicum/src/bitwise_operators.c",
+  "file": "/home/samandar/Desktop/Box/cland/c_practicum/src/bitwise_operators.c"
+},
+{
+  "directory": "/home/samandar/Desktop/Box/cland/c_practicum/build",
+  "command": "/usr/bin/clang-15   -g -std=gnu11 -o CMakeFiles/CPracticum.dir/src/printing_pattern-2.c.o -c /home/samandar/Desktop/Box/cland/c_practicum/src/printing_pattern-2.c",
+  "file": "/home/samandar/Desktop/Box/cland/c_practicum/src/printing_pattern-2.c"
+},
+{
+  "directory": "/home/samandar/Desktop/Box/cland/c_practicum/build",
+  "command": "/usr/bin/clang-15   -g -std=gnu11 -o CMakeFiles/CPracticum.dir/src/triangles_sorting.c.o -c /home/samandar/Desktop/Box/cland/c_practicum/src/triangles_sorting.c",
+  "file": "/home/samandar/Desktop/Box/cland/c_practicum/src/triangles_sorting.c"
+},
+{
+  "directory": "/home/samandar/Desktop/Box/cland/c_practicum/build",
+  "command": "/usr/bin/clang-15   -g -std=gnu11 -o CMakeFiles/CPracticum.dir/src/post-transition.c.o -c /home/samandar/Desktop/Box/cland/c_practicum/src/post-transition.c",
+  "file": "/home/samandar/Desktop/Box/cland/c_practicum/src/post-transition.c"
+},
+{
+  "directory": "/home/samandar/Desktop/Box/cland/c_practicum/build",
+  "command": "/usr/bin/clang-15   -g -std=gnu11 -o CMakeFiles/CPracticum.dir/src/reverse-array.c.o -c /home/samandar/Desktop/Box/cland/c_practicum/src/reverse-array.c",
+  "file": "/home/samandar/Desktop/Box/cland/c_practicum/src/reverse-array.c"
+},
+{
+  "directory": "/home/samandar/Desktop/Box/cland/c_practicum/build",
+  "command": "/usr/bin/clang-15   -g -std=gnu11 -o CMakeFiles/CPracticum.dir/src/printing-tokens.c.o -c /home/samandar/Desktop/Box/cland/c_practicum/src/printing-tokens.c",
+  "file": "/home/samandar/Desktop/Box/cland/c_practicum/src/printing-tokens.c"
+},
+{
+  "directory": "/home/samandar/Desktop/Box/cland/c_practicum/build",
+  "command": "/usr/bin/clang-15   -g -std=gnu11 -o CMakeFiles/CPracticum.dir/src/recursion1.c.o -c /home/samandar/Desktop/Box/cland/c_practicum/src/recursion1.c",
+  "file": "/home/samandar/Desktop/Box/cland/c_practicum/src/recursion1.c"
+},
+{
+  "directory": "/home/samandar/Desktop/Box/cland/c_practicum/build",
+  "command": "/usr/bin/clang-15   -g -std=gnu11 -o CMakeFiles/CPracticum.dir/src/num-to-arr.c.o -c /home/samandar/Desktop/Box/cland/c_practicum/src/num-to-arr.c",
+  "file": "/home/samandar/Desktop/Box/cland/c_practicum/src/num-to-arr.c"
+}
+]
